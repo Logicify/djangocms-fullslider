@@ -1,2 +1,2 @@
 # djangocms-fullslider
-FullSlider plugin for Django CMS
+Full page slider plugin for Django CMS
