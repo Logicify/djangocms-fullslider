@@ -4,6 +4,12 @@ Full page slider plugin for Django CMS
 
 ## Development procedures
 
+Ensure that all python sources contain license notice:
+
+```bash
+./development/copyright-update
+```
+
 Building distribution package:
 
 ```bash
