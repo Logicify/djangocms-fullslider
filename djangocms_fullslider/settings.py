@@ -1,5 +1,5 @@
 #    Full page slider plugin for Django CMS
-#    Copyright (C) 2017 Logicify
+#    Copyright (C) 2017 Dmitriy Selischev
 #    The MIT License (MIT)
 #    
 #    Permission is hereby granted, free of charge, to any person obtaining
