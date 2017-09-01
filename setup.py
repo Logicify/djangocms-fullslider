@@ -29,7 +29,7 @@ setup(
     url='https://github.com/Logicify/djangocms-fullslider',
 
     # Author details
-    author='Dmitriy Selischev',
+    author='Logicify',
     author_email='pypa-dev@googlegroups.com',
 
     # License
