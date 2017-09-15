@@ -64,6 +64,7 @@ setup(
     install_requires=[
         'django',
         'django-cms',
+        'django-sekizai',
         'cmsplugin-filer',
     ],
 
