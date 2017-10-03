@@ -1,0 +1,7 @@
+Django==1.8.18
+django-sekizai>=0.9
+django-cms==3.4.4
+cmsplugin-filer==1.1.3
+copyright==1.0.1.0
+twine
+wheel
