@@ -37,6 +37,23 @@ class FullSliderPlugin(CMSPluginBase):
     allow_children = True
     child_classes = ["FullSlidePlugin"]
     render_template = "djangocms_fullslider/slider.html"
+    fieldsets = (
+        (None, {
+            "fields": [
+                "autoplay",
+                "loop"
+            ]
+        }),
+        (_("Advanced settings"), {
+            "classes": ("collapse",),
+            "fields": [
+                "slide",
+                "timer",
+                "delay",
+                "transitionDuration"
+            ]
+        })
+    )
 
     def render(self, context, instance, placeholder):
         context = super(FullSliderPlugin, self).render(context, instance, placeholder)
