@@ -58,7 +58,7 @@ setup(
     ],
 
     # Structure
-    packages=find_packages(exclude=['contrib', 'docs', 'tests'], include=['djangocms_fullslider']),
+    packages=find_packages(),
 
     # Dependencies
     install_requires=[
@@ -82,4 +82,5 @@ setup(
     # have to be included in MANIFEST.in as well.
     package_data={
     },
+    include_package_data=True
 )
