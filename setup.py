@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-version = "1.0.0"
+version = "1.0.1"
 root_dir = path.abspath(path.dirname(__file__))
 
 with open(path.join(root_dir, 'README.md'), encoding='utf-8') as f:
