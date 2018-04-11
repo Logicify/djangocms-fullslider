@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-version = "1.0.0"
+version = "1.0.1"
 root_dir = path.abspath(path.dirname(__file__))
 
 with open(path.join(root_dir, 'README.md'), encoding='utf-8') as f:
@@ -58,7 +58,7 @@ setup(
     ],
 
     # Structure
-    packages=find_packages(),
+    packages=find_packages(where='.', include=('*',)),
 
     # Dependencies
     install_requires=[
@@ -81,6 +81,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
+        'djangocms_fullslider': ['static/*/*/*', 'templates/*/*']
     },
     include_package_data=True
 )
